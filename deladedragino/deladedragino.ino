@@ -57,7 +57,7 @@ void os_getArtEui (u1_t* buf) { }
 void os_getDevEui (u1_t* buf) { }
 void os_getDevKey (u1_t* buf) { }
 
-static uint8_t mydata[] = "tincho";
+static uint8_t mydata[] = "What is up";
 static osjob_t initjob,sendjob,blinkjob;
 
 // Schedule TX every this many seconds (might become longer due to duty
